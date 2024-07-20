@@ -1,0 +1,101 @@
+
+    body {
+  font-family: Arial, Helvetica, sans-serif;
+  
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bx {
+    justify-content: center;
+    height: 45vh;
+  width: 25%;
+  max-width: 250px;
+  margin: 0 auto;
+  border: solid #dbdbdb;
+  border-width: 0.1px ;
+  padding: 75px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"] 
+{
+  width: 250px;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+  margin-left: 0px;
+}
+
+input[type="submit"]
+ {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  width: 100%;
+}
+.divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+.line {
+    flex: 1;
+    height: 1px;
+    background: #ccc;
+}
+.or {
+  margin: 0 10px;
+  color: #8e8e8e;
+  font-weight: bold;
+  font-size: 12px;
+}
+.btn {
+    border-radius: 6px;
+    align-self: center;
+    padding: 10px 20px;
+    background-color: rgb(61, 152, 197);
+    color: white; 
+    font-weight: bold;
+    border: none;
+    width: 250px;
+    cursor: pointer;
+}
+
+.els {
+    width: 100%;
+    margin: 0 10px;
+    color: rgb(94, 94, 167);
+    font-weight: bold;
+    font-size: 17px;
+    cursor: pointer;
+    text-align: center;
+}
+.social-icon {
+  display: flex ;
+  width: 20px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  text-align: center;
+  right: 100px;
+}
